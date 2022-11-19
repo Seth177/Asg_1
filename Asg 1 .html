@@ -138,7 +138,7 @@
       flex-direction: row;
       background: rgb(241, 241, 79);
       justify-content: space-between;
-      height: 50px;
+      height: 70px;
       padding: 10px;
       position: absolute;
       left: 0;
@@ -165,7 +165,7 @@
     }
 
     .image:hover {
-      width: 70%;
+      width: 80%;
       height: 100%;
       margin: 0;
       cursor: pointer;
@@ -178,7 +178,7 @@
       margin-right: 10px;
       transition: font-size 0.15s, font-weight 0.15s;
       background-color:blue;
-      padding-top:7px;
+      padding-top:15px;
     }
 
     .menu:hover {
@@ -194,7 +194,7 @@
       margin-right: 10px;
       transition: font-size 0.15s, font-weight 0.15s;
       background-color:pink;
-      padding-top:7px;
+      padding-top:15px;
     }
 
     .promotions:hover {
@@ -210,7 +210,7 @@
       margin-right: 10px;
       transition: font-size 0.15s, font-weight 0.15s;
       background-color:red;
-      padding-top:7px;
+      padding-top:15px;
     }
 
     .reviews:hover {
@@ -226,7 +226,7 @@
       margin-right: 10px;
       transition: font-size 0.15s, font-weight 0.15s;
       background-color:green;
-      padding-top:7px;
+      padding-top:15px;
 
     }
 
@@ -244,7 +244,7 @@
       margin-right: 10px;
       transition: font-size 0.15s, font-weight 0.15s;
       background-color:lightpink;
-      padding-top:7px;
+      padding-top:15px;
 
     }
 
@@ -273,26 +273,39 @@
       margin-top: 500px;
       display: grid;
       grid-template-columns:1fr 1fr 1fr;
-      column-gap:15px;
-      row-gap:100px;
-      border:2px solid blue;
+      column-gap:200px;
+      row-gap:150px;
     }
 
     .picture-of-drink {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      border-radius:50%;
+      transition:border-radius 1s;
     }
 
+    .picture-of-drink:hover{
+      border-radius:0%;
+      
+    }
+    
+
     .drink-container {
-      border: 2px solid grey;
       
     }
 
+    .drink-container:hover{
+      box-shadow:10px 10px 10px rgba(0,0,0,0.3)
+    }
+
+
+
     p.drink-name{
-        font-size:30px;
-        text-align:center;
-        margin-top:10px;
+      font-weight:bold;
+      font-size:30px;
+      text-align:center;
+      margin-top:10px;
     }
 
     p.drink-info{
