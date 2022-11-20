@@ -21,102 +21,108 @@
     <div class="layout">
       
 
-      <div class="drinks">
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
+      <div class="display">
+        <div class="category"><h2>Latte</h2></div>
+        <div class="display-of-drinks">
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
+          </div>
+  
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
+          </div>
+  
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
+          </div>
+  
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
+          </div>
+  
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
+          </div>
+  
+          <div class="drink-container">
+            <div class="image-container">
+              <img
+                class="picture-of-drink"
+                src="mint milkshake.jpg"
+                alt="Image of Drink"
+              />
+            </div>
+  
+            <div>
+              <p class="drink-name">Name of drink</p>
+              <h3>Info of Drink</h3>
+              <p class="drink-info">ffadasdad</p>
+            </div>
           </div>
 
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
+
         </div>
-
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
-          </div>
-
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
-        </div>
-
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
-          </div>
-
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
-        </div>
-
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
-          </div>
-
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
-        </div>
-
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
-          </div>
-
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
-        </div>
-
-        <div class="drink-container">
-          <div class="image-container">
-            <img
-              class="picture-of-drink"
-              src="mint milkshake.jpg"
-              alt="Image of Drink"
-            />
-          </div>
-
-          <div>
-            <p class="drink-name">Name of drink</p>
-            <h3>Info of Drink</h3>
-            <p class="drink-info">ffadasdad</p>
-          </div>
-        </div>
+        
       
       </div>
 
@@ -257,6 +263,7 @@
       margin: 0;
     }
 
+
     h3 {
       margin: 0;
       margin-top:10px;
@@ -269,12 +276,25 @@
       justify-content: center;
     }
 
-    .drinks {
+    .display {
       margin-top: 500px;
+      display:flex;
+      flex-direction:column;
+      border:2px solid grey;
+    }
+
+    .category{
+      font-size:50px;
+      text-align:center;
+    
+    }
+
+    .display-of-drinks{
       display: grid;
       grid-template-columns:1fr 1fr 1fr;
       column-gap:200px;
       row-gap:150px;
+
     }
 
     .picture-of-drink {
@@ -288,6 +308,10 @@
     .picture-of-drink:hover{
       border-radius:0%;
       
+    }
+
+    .drink-container{
+      border:2px solid blue;
     }
     
 
