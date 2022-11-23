@@ -298,12 +298,14 @@
 
     }
 
+  
+
     .picture-of-drink {
       width: 100%;
       height: 100%;
       object-fit: cover;
       border-radius:50%;
-      transition:border-radius 1s;
+      transition:border-radius 0.5s;
     }
 
     .picture-of-drink:hover{
@@ -313,13 +315,15 @@
 
     .drink-container{
       border:2px solid blue;
+      transition: box-shadow 0.5s, transform 0.5s;
     }
-    
-
-  
 
     .drink-container:hover{
-      box-shadow:10px 10px 10px rgba(0,0,0,0.3)
+      box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+      transform:scale(1.3);
+      z-index:2;
+
+      
     }
 
 
