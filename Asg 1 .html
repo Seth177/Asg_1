@@ -19,8 +19,12 @@
     </div>
 
     
+    <div class="picture-container">
+      <div class="background"><img class="background-image" src="images/background.jpg" alt="Background image"></div>
+      <div class="text"><span class="auto-type"></span></div>
+
+    </div>
     
-    <div class="background"><img class="background-image" src="images/background.jpg" alt="Background image"></div>
     
     <div class="layout">
 
@@ -365,7 +369,7 @@
   <style>
 
     body {
-      padding-bottom: 1000px;
+      padding-bottom: 800px;
       background-color: rgb(24, 22, 22);
 
     }
@@ -386,6 +390,24 @@
       height:700px;
       object-fit:cover;
       opacity: 0.5;
+    }
+
+    .picture-container{
+      position:relative;
+    }
+
+    .text{
+      position:absolute;
+      top:50%;
+      left:42%;
+      color:white;
+      font-size:80px;
+      font-weight:600;
+      font-family:'Poppins',sans-serif;
+    }
+
+    span{
+      color:yellow;
     }
 
     .container {
@@ -544,6 +566,7 @@
       display:flex;
       flex-direction:column;
       border:2px solid grey;
+      margin-bottom:50px;
   
 
     }
@@ -585,7 +608,7 @@
 
     .drink-container:hover{
       box-shadow:10px 10px 10px rgba(0,0,0,0.3);
-      transform:scale(1.15);
+      transform:scale(1.1);
       z-index:2;
 
       
@@ -609,4 +632,20 @@
     }
 
   </style>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+  <script>
+
+    var typed = new Typed(".auto-type",{
+      strings:["Welcome","To","Our","Korean","CAFE"],
+      typespeed:5,
+      backspeed:5,
+      loop:true
+
+    })
+    
+  </script>
 </html>
