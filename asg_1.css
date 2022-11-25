@@ -10,6 +10,8 @@ a {
 .background {
   padding: 100px 50px 10px 50px;
   margin-bottom: 0px;
+  position: relative;
+  z-index: -1;
 }
 
 .background-image {
@@ -51,6 +53,7 @@ span {
   height: 70px;
   padding: 10px;
   position: absolute;
+  z-index: 1;
   left: 0;
   right: 0;
   top: 0;
