@@ -4,7 +4,7 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(24, 22, 22);
 }
 
 .container {
@@ -130,6 +130,12 @@ body {
   padding: 0px 15px 0px 15px;
 }
 
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .image-box {
   margin-top: 100px;
   margin-bottom: 0;
@@ -176,7 +182,7 @@ span {
 }
 
 .container-for-swiper {
-  background-color: black;
+  background-color: rgb(45, 42, 42);
   margin-top: 50px;
   width: 100%;
   height: 100vh;
@@ -189,8 +195,20 @@ span {
   width: 60%;
   height: 80%;
   object-fit: contain;
+  border: 2px solid white;
 }
 
 .swiper-slide img {
   width: 100%;
+}
+
+.container-for-swiper1 {
+  background-color: rgb(45, 42, 42);
+  margin-top: 50px;
+  width: 45%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid blue;
 }
