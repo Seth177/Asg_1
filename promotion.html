@@ -30,18 +30,20 @@
       <div class="container-for-swiper">
         <div class="swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/cafe latte.jpg" /></div>
-
             <div class="swiper-slide">
-              <img src="images/caramel latte.jpg" />
+              <img src="images/cafe latte_resized.jpg" />
             </div>
 
             <div class="swiper-slide">
-              <img src="images/caramel latte.jpg" />
+              <img src="images/caramel latte_resized.jpg" />
             </div>
 
             <div class="swiper-slide">
-              <img src="images/caramel latte.jpg" />
+              <img src="images/latte_resized.jpg" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/mint latte_resized.jpg" />
             </div>
           </div>
           <!-- If we need pagination -->
@@ -53,30 +55,29 @@
         </div>
       </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "vertical",
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
-    </script>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </html>

@@ -166,8 +166,9 @@ body {
 }
 
 .swiper {
-  width: 40%;
-  height: fit-content;
+  width: 60%;
+  height: 70%;
+  object-fit: contain;
   border: 2px solid white;
 }
 
