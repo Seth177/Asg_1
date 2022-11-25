@@ -133,29 +133,23 @@ body {
 .image-box {
   border: 2px solid white;
   margin-top: 100px;
-  width: 60%;
-  height: 600px;
-  object-fit: fill;
-  background-image: url("images/background.jpg");
+  width: 100%;
+  height: 650px;
+  background-image: url("images/cafe\ background.jpg");
 
-  animation: fade 10s infinite;
+  animation: fade 15s infinite;
 }
 
 @keyframes fade {
+  20% {
+    background-image: url("images/cafe\ background2.jpg");
+  }
+
   60% {
-    background-image: url("images/back.jpg");
+    background-image: url("images/cafe\ background3.jpg");
   }
 
   80% {
-    background-image: url("images/cafe background.jpg");
+    background-image: url("images/cafe\ background.jpg");
   }
-
-  100% {
-    background-image: url("images/background.jpg");
-  }
-}
-
-.fade-image {
-  width: 100%;
-  height: 100%;
 }
