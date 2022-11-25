@@ -128,7 +128,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 15px 0px 15px;
-  border: 2px solid blue;
 }
 
 .image-box {
@@ -177,12 +176,10 @@ span {
 
 .swiper {
   width: 60%;
-  height: 70%;
+  height: 80%;
   object-fit: contain;
-  border: 2px solid white;
 }
 
 .swiper-slide img {
   width: 100%;
-  border: 2px solid lightblue;
 }
