@@ -180,8 +180,7 @@ h3 {
 }
 
 .box {
-  background-color: rgb(24, 22, 22);
-  flex: 0.5;
+  flex: 0.25;
 }
 
 .inner-layout {
