@@ -195,7 +195,6 @@ span {
   width: 60%;
   height: 80%;
   object-fit: contain;
-  border: 2px solid white;
 }
 
 .swiper-slide img {
@@ -210,5 +209,5 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid blue;
+  padding-right: 20px;
 }
