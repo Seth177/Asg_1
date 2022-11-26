@@ -4,7 +4,7 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(24, 22, 22);
 }
 
 .container {
@@ -139,7 +139,7 @@ body {
 
 .header {
   text-align: center;
-  background-color: lightpink;
+  background-color: rgb(69, 65, 65);
 }
 .header p {
   font-size: 90px;
@@ -151,24 +151,23 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid blue;
+  background-color: rgb(69, 65, 65);
   margin-top: 100px;
   width: 100%;
   max-width: fit-content;
+  padding: 10px;
 }
 
 .review-container {
-  border: 2px solid lightblue;
   transition: 0.15s;
 }
 
 .review-container:hover {
   transform: scale(1.15);
-  box-shadow: 0px 10px px 7px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 10px 10px rgba(158, 156, 156, 0.4);
 }
 
 .image-container {
-  border: 2px solid black;
   width: 100%;
   height: fit-content;
 }
@@ -196,4 +195,17 @@ body {
   flex: 1.8;
   justify-content: space-between;
   gap: 22px;
+}
+
+.drink-name {
+  text-align: center;
+  font-size: 20px;
+}
+
+.drink-name p {
+  color: white;
+}
+
+p {
+  color: white;
 }
