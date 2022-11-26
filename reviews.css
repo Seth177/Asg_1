@@ -130,6 +130,13 @@ body {
   flex-direction: column;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .header {
   text-align: center;
   background-color: lightpink;
@@ -146,6 +153,7 @@ body {
   justify-content: space-between;
   border: 2px solid blue;
   margin-top: 100px;
+  width: 100%;
   max-width: fit-content;
 }
 
@@ -175,17 +183,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1.7;
+  flex: 1.5;
 }
 
 .review-name p {
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 700;
 }
 
 .container-layout {
   display: flex;
-  flex: 1.5;
+  flex: 1.8;
   justify-content: space-between;
   gap: 22px;
 }
