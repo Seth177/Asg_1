@@ -135,15 +135,20 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  border: 2px solid white;
 }
 
 .details {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: 2px solid lightblue;
-  position: relative;
+}
+
+.submission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 p {
@@ -155,13 +160,6 @@ label {
   color: white;
 }
 
-.information1 {
-  margin-bottom: 30px;
-  border: 2px solid lightblue;
-  position: absolute;
-  left: 0;
-}
-
 .information {
   margin-bottom: 30px;
   border: 2px solid lightpink;
@@ -171,4 +169,58 @@ label {
   border-radius: 10px;
   background-color: lightcoral;
   font-size: 20px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.popup {
+  background-color: white;
+  width: 400px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  visibility: hidden;
+  transition: transform 0.5s, scale 0.5s;
+}
+
+.openPopup {
+  top: 50%;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup p {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.tick-image {
+  width: 50%;
+  height: fit-content;
+  border-radius: 50%;
+  margin-top: -90px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ok-button {
+  background-color: rgb(75, 224, 75);
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 10px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  height: 10%;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
