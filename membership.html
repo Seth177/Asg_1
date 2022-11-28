@@ -22,60 +22,65 @@
 
     <div class="layout">
       <div><p>Fill in your details</p></div>
+      \
 
-      <div class="details">
-        <div class="information">
-          <label for="name"
-            >Full Name: <input type="text" placeholder="Name" required
-          /></label>
-        </div>
+      <form>
+        <div class="details">
+          <div class="information">
+            <label for="name"
+              >Full Name: <input type="text" placeholder="Name" required
+            /></label>
+          </div>
 
-        <div class="information">
-          <label for="DOB">Date of Birth: <input type="date" required /></label>
-        </div>
+          <div class="information">
+            <label for="DOB"
+              >Date of Birth: <input type="date" required
+            /></label>
+          </div>
 
-        <div class="information">
-          <label for="Email">Email: <input type="email" required /></label>
-        </div>
+          <div class="information">
+            <label for="Email">Email: <input type="email" required /></label>
+          </div>
 
-        <div class="information">
-          <label for="number"
-            >Hp Number: <input type="tel" placeholder="1234-5678" required
-          /></label>
-        </div>
+          <div class="information">
+            <label for="number"
+              >Hp Number: <input type="tel" placeholder="1234-5678" required
+            /></label>
+          </div>
 
-        <div class="information">
-          <label for="enquiry"
-            >Do you want to receive latest promotion deals? Yes
-            <input type="checkbox" /> No <input type="checkbox" />
-          </label>
-        </div>
+          <div class="information">
+            <label for="enquiry"
+              >Do you want to receive latest promotion deals? Yes
+              <input type="checkbox" /> No <input type="checkbox" />
+            </label>
+          </div>
 
-        <div class="submission">
-          <input
-            class="buttons"
-            type="button"
-            value="Submit"
-            onclick="openPopup()"
-          />
-          <input class="buttons" type="reset" />
+          <div class="submission">
+            <input
+              class="buttons"
+              type="button"
+              value="Submit"
+              onclick="openPopup()"
+            />
+            <input class="buttons" type="reset" />
 
-          <div class="popup" id="popup">
-            <div class="image-container">
-              <img
-                class="tick-image"
-                src="images/tick.png"
-                alt="Image of a tick"
-              />
+            <div class="popup" id="popup">
+              <div class="image-container">
+                <img
+                  class="tick-image"
+                  src="images/tick.png"
+                  alt="Image of a tick"
+                />
+              </div>
+              <h2>Thank you!</h2>
+              <p>Your are now a member of our cafe!!!</p>
+              <button type="button" class="ok-button" onclick="closePopup()">
+                OK
+              </button>
             </div>
-            <h2>Thank you!</h2>
-            <p>Your are now a member of our cafe!!!</p>
-            <button type="button" class="ok-button" onclick="closePopup()">
-              OK
-            </button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
 
     <script>
