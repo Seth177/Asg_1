@@ -1,17 +1,15 @@
 body {
   background-image: linear-gradient(
     to right,
-    rgb(31, 19, 19),
-    rgb(22, 22, 78),
-    rgb(59, 26, 59)
+    rgb(193, 120, 120),
+    rgb(182, 182, 79),
+    rgb(181, 148, 86)
   );
-
-  max-height: 100%;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .background {
@@ -55,7 +53,7 @@ span {
 .container {
   display: flex;
   flex-direction: row;
-  background: rgb(241, 241, 79);
+  background: rgb(36, 30, 30);
   justify-content: space-between;
   height: 70px;
   padding: 10px;
@@ -66,10 +64,15 @@ span {
   top: 0;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 120, 120),
+    rgb(182, 182, 79),
+    rgb(181, 148, 86)
+  );
 }
 
 .logo {
-  background-color: lightpink;
   flex-basis: 5%;
   margin-right: 5px;
   text-align: center;
@@ -112,7 +115,6 @@ span {
   text-align: center;
   margin-right: 10px;
   transition: font-size 0.15s, font-weight 0.15s;
-  background-color: pink;
   padding-top: 15px;
 }
 
@@ -128,7 +130,6 @@ span {
   text-align: center;
   margin-right: 10px;
   transition: font-size 0.15s, font-weight 0.15s;
-  background-color: red;
   padding-top: 15px;
 }
 
@@ -144,7 +145,6 @@ span {
   text-align: center;
   margin-right: 10px;
   transition: font-size 0.15s, font-weight 0.15s;
-  background-color: green;
   padding-top: 15px;
 }
 
@@ -160,7 +160,6 @@ span {
   text-align: center;
   margin-right: 10px;
   transition: font-size 0.15s, font-weight 0.15s;
-  background-color: lightpink;
   padding-top: 15px;
 }
 
