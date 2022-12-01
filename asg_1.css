@@ -1,15 +1,16 @@
 body {
   background-image: linear-gradient(
     to right,
-    rgb(193, 120, 120),
-    rgb(182, 182, 79),
-    rgb(181, 148, 86)
+    rgb(135, 113, 113),
+    rgb(182, 182, 26),
+    rgb(137, 122, 89)
   );
 }
 
 a {
   text-decoration: none;
   color: white;
+  text-transform: capitalize;
 }
 
 .background {
@@ -67,9 +68,9 @@ span {
   border-radius: 10px;
   background-image: linear-gradient(
     to right,
-    rgb(193, 120, 120),
-    rgb(182, 182, 79),
-    rgb(181, 148, 86)
+    rgb(135, 113, 113),
+    rgb(182, 182, 26),
+    rgb(137, 122, 89)
   );
 }
 
