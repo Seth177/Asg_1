@@ -9,79 +9,83 @@
     <link rel="stylesheet" href="membership.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="logo flexMenuItems">
-        <a class="logo-text" href="Asg 1 .html">SEONGJU</a>
+    <nav>
+      <div class="container">
+        <div class="logo flexMenuItems">
+          <a class="logo-text" href="Asg 1 .html">SEONGJU</a>
+        </div>
+        <div class="menu"><a href="Asg 1 .html">Menu</a></div>
+        <div class="promotions"><a href="promotion.html">Promotion</a></div>
+        <div class="reviews"><a href="reviews.html">Reviews</a></div>
+        <div class="contacts"><a href="contact.html">Contact us</a></div>
+        <div class="membership"><a href="membership.html">Sign Up</a></div>
       </div>
-      <div class="menu"><a href="Asg 1 .html">Menu</a></div>
-      <div class="promotions"><a href="promotion.html">Promotion</a></div>
-      <div class="reviews"><a href="reviews.html">Reviews</a></div>
-      <div class="contacts"><a href="contact.html">Contact us</a></div>
-      <div class="membership"><a href="membership.html">Sign Up</a></div>
-    </div>
+    </nav>
 
-    <div class="layout">
-      <div><p>Fill in your details</p></div>
-      \
+    <section>
+      <div class="layout">
+        <div><p>Fill in your details</p></div>
+        \
 
-      <form>
-        <div class="details">
-          <div class="information">
-            <label for="name"
-              >Full Name: <input type="text" placeholder="Name" required
-            /></label>
-          </div>
+        <form>
+          <div class="details">
+            <div class="information">
+              <label for="name"
+                >Full Name: <input type="text" placeholder="Name" required
+              /></label>
+            </div>
 
-          <div class="information">
-            <label for="DOB"
-              >Date of Birth: <input type="date" required
-            /></label>
-          </div>
+            <div class="information">
+              <label for="DOB"
+                >Date of Birth: <input type="date" required
+              /></label>
+            </div>
 
-          <div class="information">
-            <label for="Email">Email: <input type="email" required /></label>
-          </div>
+            <div class="information">
+              <label for="Email">Email: <input type="email" required /></label>
+            </div>
 
-          <div class="information">
-            <label for="number"
-              >Hp Number: <input type="tel" placeholder="1234-5678" required
-            /></label>
-          </div>
+            <div class="information">
+              <label for="number"
+                >Hp Number: <input type="tel" placeholder="1234-5678" required
+              /></label>
+            </div>
 
-          <div class="information">
-            <label for="enquiry"
-              >Do you want to receive latest promotion deals? Yes
-              <input type="checkbox" /> No <input type="checkbox" />
-            </label>
-          </div>
+            <div class="information">
+              <label for="enquiry"
+                >Do you want to receive latest promotion deals? Yes
+                <input type="checkbox" /> No <input type="checkbox" />
+              </label>
+            </div>
 
-          <div class="submission">
-            <input
-              class="buttons"
-              type="button"
-              value="Submit"
-              onclick="openPopup()"
-            />
-            <input class="buttons" type="reset" />
+            <div class="submission">
+              <input
+                class="buttons"
+                type="button"
+                value="Submit"
+                onclick="openPopup()"
+              />
+              <input class="buttons" type="reset" />
 
-            <div class="popup" id="popup">
-              <div class="image-container">
-                <img
-                  class="tick-image"
-                  src="images/tick.png"
-                  alt="Image of a tick"
-                />
+              <div class="popup" id="popup">
+                <div class="image-container">
+                  <img
+                    class="tick-image"
+                    src="images/tick.png"
+                    alt="Image of a tick"
+                  />
+                </div>
+                <h2>Thank you!</h2>
+                <p>Your are now a member of our cafe!!!</p>
+                <button type="button" class="ok-button" onclick="closePopup()">
+                  OK
+                </button>
               </div>
-              <h2>Thank you!</h2>
-              <p>Your are now a member of our cafe!!!</p>
-              <button type="button" class="ok-button" onclick="closePopup()">
-                OK
-              </button>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
+    </section>
 
     <script>
       let popup = document.getElementById("popup");
