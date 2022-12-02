@@ -10,14 +10,25 @@
   </head>
   <body>
     <nav>
+      
       <div class="container">
-        <div class="logo flexMenuItems"><a class="logo-text" href="Asg 1 .html">SEONGJU</a></div>
-        <div class="menu flexMenuItems"><a href="Asg 1 .html">Menu</a></div>
-        <div class="promotions flexMenuItems"><a href="promotion.html">Promotion</a></div>
-        <div class="reviews flexMenuItems"><a href="reviews.html">Reviews</a></div>
-        <div class="contacts flexMenuItems"><a href="contact.html">Contact us</a></div>
-        <div class="membership flexMenuItems"><a href="membership.html">Sign Up</a></div>
+        
+      
+        <div class="logo"><a class="logo-text" href="Asg 1 .html">SEONGJU</a></div>
+
+        <div class="nav-logo">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="menu"><a href="Asg 1 .html">Menu</a></div>
+        <div class="promotions"><a href="promotion.html">Promotion</a></div>
+        <div class="reviews"><a href="reviews.html">Reviews</a></div>
+        <div class="contacts"><a href="contact.html">Contact us</a></div>
+        <div class="membership"><a href="membership.html">Sign Up</a></div>
+        
       </div>
+      
 
     </nav>
     
@@ -378,6 +389,44 @@
 
 
   <script>
+
+
+    /*const logo = document.getElementsByClassName("nav-logo")
+    logo.onmousehover = function(){
+      menu = document.querySelector(".menu");
+      menu.classList.toggle("active");
+
+      promotions = document.querySelector(".promotions");
+      promotions.classList.toggle("active");
+
+      reviews = document.querySelector(".reviews");
+      reviews.classList.toggle("active");
+
+      contacts = document.querySelector(".contacts");
+      contacts.classList.toggle("active");
+
+      membership = document.querySelector(".membership");
+      memnership.classList.toggle("active");
+
+    };*/
+
+    let navlogo = document.querySelector(".nav-logo");
+    navlogo.onclick = function(){
+      menu = document.querySelector(".menu");
+      menu.classList.toggle("active");
+
+      promotions = document.querySelector(".promotions");
+      promotions.classList.toggle("active");
+
+      reviews = document.querySelector(".reviews");
+      reviews.classList.toggle("active");
+
+      contacts = document.querySelector(".contacts");
+      contacts.classList.toggle("active");
+
+      membership = document.querySelector(".membership");
+      memnership.classList.toggle("active");
+    }
 
     var typed = new Typed(".auto-type",{
       strings:["Welcome","To","Our","CAFE"],
