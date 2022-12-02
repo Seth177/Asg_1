@@ -284,6 +284,11 @@ p.drink-info {
     font-size: 40px;
   }
 
+  .text {
+    font-size: 50px;
+    transition: font-size 0.5s;
+  }
+
   .display-of-drinks {
     display: grid;
     grid-template-columns: 1fr 1fr;
