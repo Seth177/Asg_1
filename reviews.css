@@ -7,9 +7,29 @@ body {
   );
 }
 
-a {
+nav a {
   text-decoration: none;
   color: white;
+  position: relative;
+}
+
+nav a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: white;
+  margin-top: 3px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+}
+
+nav a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .background {
