@@ -172,6 +172,7 @@ span {
 .image-box {
   margin-top: 100px;
   margin-bottom: 0;
+  border-radius: 10px;
   width: 100%;
   height: 650px;
   position: relative;
@@ -252,9 +253,54 @@ span {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 1700px) {
+  .container {
+    padding: 10px 30px 10px;
+  }
+
+  .image-text {
+    top: 35%;
+    left: 38%;
+    transition: 0.5s;
+  }
+
+  .iamge-box {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .container {
+    padding: 10px 30px 10px;
+  }
+
+  .image-text {
+    top: 30%;
+    left: 38%;
+    font-size: 45px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 600px;
+    transition: 0.5s;
+  }
+}
+
 @media screen and (max-width: 1320px) {
   .container {
     padding: 10px 30px 10px;
+  }
+  .image-text {
+    top: 30%;
+    left: 38%;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 580px;
+    transition: 0.5s;
   }
 }
 
@@ -267,6 +313,606 @@ span {
 @media screen and (max-width: 980px) {
   .container {
     padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 30%;
+    left: 35%;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 540px;
+    transition: 0.5s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 28%;
+    left: 33%;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 500px;
+    transition: 0.5s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 25%;
+    left: 33%;
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 450px;
+    transition: 0.5s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 25%;
+    left: 32%;
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 420px;
+    transition: 0.5s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 22%;
+    left: 26%;
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 350px;
+    transition: 0.5s;
   }
 
   .nav-logo {
