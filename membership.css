@@ -252,3 +252,150 @@ label {
   cursor: pointer;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-width: 1320px) {
+  .container {
+    padding: 10px 30px 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
