@@ -238,6 +238,7 @@ h3 {
 }
 
 .drink-container {
+  border: 1px solid white;
   transition: box-shadow 0.5s, transform 0.5s, z-index 0.5s;
 }
 
@@ -277,6 +278,22 @@ p.drink-info {
 @media screen and (max-width: 980px) {
   .container {
     padding: 10px 20px 10px;
+  }
+
+  .category {
+    font-size: 40px;
+  }
+
+  .display-of-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 180px;
+    row-gap: 120px;
+  }
+
+  .drink-container {
+    width: 70%;
+    margin-left: 40px;
   }
 
   .nav-logo {

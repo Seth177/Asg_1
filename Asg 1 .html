@@ -391,27 +391,11 @@
   <script>
 
 
-    /*const logo = document.getElementsByClassName("nav-logo")
-    logo.onmousehover = function(){
-      menu = document.querySelector(".menu");
-      menu.classList.toggle("active");
+    let logo = document.querySelector(".nav-logo");
+    logo.addEventListener("mouseover", mouseOver);
 
-      promotions = document.querySelector(".promotions");
-      promotions.classList.toggle("active");
 
-      reviews = document.querySelector(".reviews");
-      reviews.classList.toggle("active");
-
-      contacts = document.querySelector(".contacts");
-      contacts.classList.toggle("active");
-
-      membership = document.querySelector(".membership");
-      memnership.classList.toggle("active");
-
-    };*/
-
-    let navlogo = document.querySelector(".nav-logo");
-    navlogo.onclick = function(){
+    function mouseOver() {
       menu = document.querySelector(".menu");
       menu.classList.toggle("active");
 
@@ -426,7 +410,10 @@
 
       membership = document.querySelector(".membership");
       membership.classList.toggle("active");
-    }
+
+    };
+
+  
 
     var typed = new Typed(".auto-type",{
       strings:["Welcome","To","Our","CAFE"],
