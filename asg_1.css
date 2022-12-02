@@ -44,6 +44,7 @@ nav a:hover:before {
   height: 700px;
   object-fit: cover;
   opacity: 0.8;
+  transition: 0.5s;
 }
 
 .side-image {
@@ -289,6 +290,11 @@ p.drink-info {
     transition: font-size 0.5s;
   }
 
+  .background-image {
+    height: 600px;
+    transition: 0.5s;
+  }
+
   .display-of-drinks {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -332,7 +338,7 @@ p.drink-info {
       rgb(182, 182, 26),
       rgb(137, 122, 89)
     );
-    transition: 0.2s;
+    transition: 0.5s;
   }
 
   .menu.active {
@@ -355,7 +361,7 @@ p.drink-info {
       rgb(182, 182, 26),
       rgb(137, 122, 89)
     );
-    transition: 0.2s;
+    transition: 0.5s;
   }
   .promotions.active {
     opacity: 0.9;
@@ -377,7 +383,7 @@ p.drink-info {
       rgb(182, 182, 26),
       rgb(137, 122, 89)
     );
-    transition: 0.2s;
+    transition: 0.5s;
   }
 
   .reviews.active {
@@ -400,7 +406,7 @@ p.drink-info {
       rgb(182, 182, 26),
       rgb(137, 122, 89)
     );
-    transition: 0.2s;
+    transition: 0.5s;
   }
 
   .contacts.active {
@@ -423,7 +429,700 @@ p.drink-info {
       rgb(182, 182, 26),
       rgb(137, 122, 89)
     );
+    transition: 0.5s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 10px 10px 10px;
+  }
+
+  .display2 {
+    margin-top: 150px;
+  }
+
+  .category {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 40px;
+    transition: font-size 0.5s;
+  }
+
+  .background-image {
+    height: 550px;
+    transition: 0.5s;
+  }
+
+  .display-of-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 180px;
+    row-gap: 120px;
+  }
+
+  .drink-container {
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    padding: 10px 10px 10px;
+  }
+
+  .display2 {
+    margin-top: 100px;
     transition: 0.2s;
+  }
+
+  .category {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 30px;
+    transition: font-size 0.5s;
+  }
+
+  .background-image {
+    height: 450px;
+    transition: 0.5s;
+  }
+
+  .display-of-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 180px;
+    row-gap: 120px;
+  }
+
+  .drink-container {
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  p.drink-name {
+    font-size: 25px;
+    transition: 0.2s;
+  }
+
+  p.drink-info {
+    font-size: 15px;
+    transition: 0.2s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    padding: 10px 10px 10px;
+  }
+
+  .display2 {
+    margin-top: 120px;
+    transition: 0.2s;
+  }
+
+  .category {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 30px;
+    transition: font-size 0.5s;
+  }
+
+  .background-image {
+    height: 300px;
+    transition: 0.5s;
+  }
+
+  .display-of-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 120px;
+  }
+
+  .drink-container {
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  p.drink-name {
+    font-size: 22px;
+    transition: 0.2s;
+  }
+
+  p.drink-info {
+    font-size: 12px;
+    transition: 0.2s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px 10px 10px;
+  }
+
+  .display2 {
+    margin-top: 120px;
+    transition: 0.2s;
+  }
+
+  .category {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 30px;
+    transition: font-size 0.5s;
+  }
+
+  .background-image {
+    height: 300px;
+    transition: 0.5s;
+  }
+
+  .display-of-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 120px;
+  }
+
+  .drink-container {
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  p.drink-name {
+    font-size: 22px;
+    transition: 0.2s;
+  }
+
+  p.drink-info {
+    font-size: 12px;
+    transition: 0.2s;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.5s;
   }
 
   .membership.active {
