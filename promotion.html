@@ -135,8 +135,10 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
-    let navlogo = document.querySelector(".nav-logo");
-    navlogo.onclick = function () {
+    let logo = document.querySelector(".nav-logo");
+    logo.addEventListener("mouseover", mouseOver);
+
+    function mouseOver() {
       menu = document.querySelector(".menu");
       menu.classList.toggle("active");
 
@@ -151,7 +153,7 @@
 
       membership = document.querySelector(".membership");
       membership.classList.toggle("active");
-    };
+    }
 
     const swiper = new Swiper(".swiper", {
       // Optional parameters

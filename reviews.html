@@ -166,8 +166,10 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      let navlogo = document.querySelector(".nav-logo");
-      navlogo.onclick = function () {
+      let logo = document.querySelector(".nav-logo");
+      logo.addEventListener("mouseover", mouseOver);
+
+      function mouseOver() {
         menu = document.querySelector(".menu");
         menu.classList.toggle("active");
 
@@ -182,7 +184,7 @@
 
         membership = document.querySelector(".membership");
         membership.classList.toggle("active");
-      };
+      }
 
       AOS.init();
     </script>

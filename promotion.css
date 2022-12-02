@@ -198,7 +198,7 @@ span {
 .image-text {
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 39%;
   font-size: 50px;
   color: white;
   font-weight: 600;
@@ -253,7 +253,7 @@ span {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1650px) {
   .container {
     padding: 10px 30px 10px;
   }
@@ -264,7 +264,7 @@ span {
     transition: 0.5s;
   }
 
-  .iamge-box {
+  .image-box {
     height: 650px;
   }
 }
@@ -302,11 +302,41 @@ span {
     height: 580px;
     transition: 0.5s;
   }
+
+  h1 {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+
+  span {
+    font-size: 45px;
+    transition: 0.5s;
+  }
 }
 
 @media screen and (max-width: 1100px) {
   .container {
     padding: 10px 20px 10px;
+  }
+
+  .image-box {
+    height: 560px;
+    transition: 0.5s;
+  }
+
+  h1 {
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  span {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+  .container-for-swiper .swiper {
+    width: 50%;
+    height: 75%;
+    object-fit: cover;
   }
 }
 
@@ -325,6 +355,20 @@ span {
   .image-box {
     height: 540px;
     transition: 0.5s;
+  }
+
+  h1 {
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  span {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+
+  .container-for-swiper1 {
+    width: ;
   }
 
   .nav-logo {
