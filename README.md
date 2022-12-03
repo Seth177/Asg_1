@@ -1,10 +1,10 @@
 # Asg_1
 
-SEONGJU
+<b>SEONGJU</b>
 
 SEONGJU is my Cafe name and for this assignment I have chosen to build a website that will showcase the different drinks and food that SEONGJU has to offer. Being a cafe website I would like the user to navigate between the pages with ease and I would also like them to view the different promotions and deals at their own accord. Most importantly, I wanted my website to be simple, intuitive and aesthetically pleasing.
 
-Design Process
+<b>Design Process</b>
 
 This cafe website is for anyone that would like to know more about the products that SEONGJU sells - the drinks and food. I built this website with the idea in mind that I would like the user to use this website naturally. In doing so, I have specifically placed the menu items in a specific way so that the users can see it as a whole. The navigation bar at the top of the menu helps them to navigate between the different pages. My website gives the users an overview of the menu items, the promotions and deals, the reviews from other customers, the contacts as well as the sign up membership page.
 
@@ -21,7 +21,7 @@ This cafe website is for anyone that would like to know more about the products 
 
      - As a user, you can also go into the review page to see the opinions of other people on our products.
 
-Features
+<b>Features</b>
 
 There are many features incoporated into this cafe website.
 
@@ -59,7 +59,7 @@ Features Left to Implement
 
 1. I have not done the reszing for certain sizes
 
-Technologies Used
+<b>Technologies Used</b>
 
 - HTML
 - CSS
@@ -75,7 +75,7 @@ Technologies Used
 2. Contact page:
    - When "email me" button is pressed, it goes straight to the email, which is correct.
 
-Credits
+<b>Credits</b>
 
 Media
 
