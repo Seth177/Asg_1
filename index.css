@@ -260,7 +260,7 @@ p.drink-name {
 p.drink-info {
   font-size: 20px;
   margin-top: 5px;
-  width: 1fr;
+  width: 100%;
   color: white;
 }
 
