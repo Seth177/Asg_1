@@ -26,31 +26,38 @@ Features
 There are many features incoporated into this cafe website.
 
 Website
-I have also done the resizing of the viewports to ensure that the elements of my website can be easily viewed on the different screen sizes.
+
+- I have also done the resizing of the viewports to ensure that the elements of my website can be easily viewed on the different screen sizes.
 
 Menu Page
-In the menu page, users can hover over the food and drinks to make it bigger. If the users over the image itself, it will also make itself bigger to make it easier for viewers to see it.
 
-In the menu page, a simple typing animation will greet the users before they begin their journey in this website.
+- In the menu page, users can hover over the food and drinks to make it bigger. If the users over the image itself, it will also make itself bigger to make it easier for viewers to see it.
+
+- In the menu page, a simple typing animation will greet the users before they begin their journey in this website.
 
 Promotion Page
-In the promotion page, viewers will see a fading image animation (the images used are the layout of the cafe).
 
-Following that, the page also has an image slider animation that allow users to see the different discounted products. The image slider, by default, will automatically switch to the next image. However, this image slider animation is very intuitive, if viewers would like to see the previous image they can simply drag it back to see it, alternatively they can press the buttons at the bottom.
+- In the promotion page, viewers will see a fading image animation (the images used are the layout of the cafe).
+
+- Following that, the page also has an image slider animation that allow users to see the different discounted products. The image slider, by default, will automatically switch to the next image. However, this image slider animation is very intuitive, if viewers would like to see the previous image they can simply drag it back to see it, alternatively they can press the buttons at the bottom.
 
 Review Page
-In the review page, the animations that I used is the animation on scroll. This would make my wesite more aesthetically pleasing. Although it is not an interactive feature, i still used it to enhance the appearanc of my website.
 
-The review page also includes a hover effect, where users can hover over the different review containers and the containers will be bigger.
+- In the review page, the animations that I used is the animation on scroll. This would make my wesite more aesthetically pleasing. Although it is not an interactive feature, i still used it to enhance the appearanc of my website.
+
+- The review page also includes a hover effect, where users can hover over the different review containers and the containers will be bigger.
 
 Contact Page
-The contact page is a very simple page that has only very simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
+
+- The contact page is a very simple page that has only very simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
 
 Membership Page
-For the membership page, users are required to fill in the necessary details before submitting. Upon submitting, a simple pop-up page that will appear from the centre will greet the users.
+
+- For the membership page, users are required to fill in the necessary details before submitting. Upon submitting, a simple pop-up page that will appear from the centre will greet the users.
 
 Features Left to Implement
-I have not done the reszing for certain sizes
+
+- I have not done the reszing for certain sizes
 
 Technologies Used
 
