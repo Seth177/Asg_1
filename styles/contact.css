@@ -207,6 +207,25 @@ span {
   gap: 20px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
+}
+
+.other-info button {
+  border-style: solid;
+}
+
+.email {
+  width: 100%;
+  text-align: center;
+}
+
+.email button {
+  border-style: solid;
+}
+
+.email button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .instagram {
@@ -214,9 +233,12 @@ span {
   text-align: center;
 }
 
+.instagram button {
+  border-style: solid;
+}
+
 .instagram button:hover {
   opacity: 0.8;
-  padding: 30px;
   cursor: pointer;
 }
 
@@ -261,7 +283,7 @@ span {
 
 .information-container button:hover {
   opacity: 0.8;
-  padding: 30px;
+  box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
@@ -342,7 +364,6 @@ span:nth-of-type(2) {
 
   .other-info button {
     font-size: 30px;
-    border-style: solid;
   }
 
   .last-box p {
@@ -400,12 +421,16 @@ span:nth-of-type(2) {
     width: 80%;
   }
 
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
-  }
-
   .information-container button:last-child {
     width: 80%;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
+    font-size: 30px;
   }
 
   .instagram {
@@ -578,12 +603,16 @@ span:nth-of-type(2) {
     width: 80%;
   }
 
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
-  }
-
   .information-container button:last-child {
     width: 80%;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
+    font-size: 25px;
   }
 
   .instagram {
@@ -745,16 +774,11 @@ span:nth-of-type(2) {
   }
   .other-info button {
     font-size: 25px;
-    border-style: solid;
   }
   .information-container button:first-child {
     width: 80%;
     align-self: center;
     transition: 0.5s;
-  }
-
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
   }
 
   .information-container button:last-child {
@@ -763,13 +787,20 @@ span:nth-of-type(2) {
     transition: 0.5s;
   }
 
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
+    font-size: 25px;
+  }
+
   .instagram {
     width: 50%;
   }
 
   .instagram button {
     font-size: 25px;
-    border-style: solid;
   }
   .customer-support {
     margin: 30px;
@@ -927,12 +958,16 @@ span:nth-of-type(2) {
     width: 80%;
   }
 
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
-  }
-
   .information-container button:last-child {
     width: 80%;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
+    font-size: 22px;
   }
 
   .instagram {
@@ -1107,12 +1142,16 @@ span:nth-of-type(2) {
     width: 80%;
   }
 
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
-  }
-
   .information-container button:last-child {
     width: 80%;
+    font-size: 20px;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
     font-size: 20px;
   }
 
@@ -1288,14 +1327,17 @@ span:nth-of-type(2) {
     width: 80%;
   }
 
-  .information-container button:nth-child(2) {
-    align-self: flex-end;
-    transition: 0.5s;
-  }
-
   .information-container button:last-child {
     width: 80%;
     transition: 0.5s;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .email a button {
+    font-size: 17px;
   }
 
   .instagram {
