@@ -290,6 +290,10 @@ label {
     padding: 10px 20px 10px;
   }
 
+  p {
+    font-size: 45px;
+  }
+
   .nav-logo {
     display: block;
     cursor: pointer;
@@ -417,5 +421,53 @@ label {
 
   .membership.active {
     opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  p {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  label {
+    font-size: 20px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  p {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  label {
+    font-size: 18px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  p {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  label {
+    font-size: 15px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  label {
+    font-size: 12px;
+    transition: 0.5s;
   }
 }
