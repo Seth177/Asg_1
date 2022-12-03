@@ -196,22 +196,22 @@ span {
   width: 100%;
   height: 650px;
   position: relative;
-  background-image: url("images/cafe-background.jpg");
+  background-image: url("../images/cafe-background.jpg");
 
   animation: fade 15s infinite;
 }
 
 @keyframes fade {
   20% {
-    background-image: url("images/cafe-background2.jpg");
+    background-image: url("../images/cafe-background2.jpg");
   }
 
   60% {
-    background-image: url("images/cafe-background3.jpg");
+    background-image: url("../images/cafe-background3.jpg");
   }
 
   80% {
-    background-image: url("images/cafe-background.jpg");
+    background-image: url("../images/cafe-background.jpg");
   }
 }
 
