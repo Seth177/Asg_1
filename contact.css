@@ -285,6 +285,13 @@ p {
   font-size: 30px;
   border-radius: 100px;
   margin-top: 50px;
+  transition: 0.4s;
+}
+
+.customer-support button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 35px;
 }
 
 span {
