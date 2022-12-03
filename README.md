@@ -14,3 +14,28 @@ This cafe website is for anyone that would like to know more about the products 
      - As a user, you can go to the contact page and email us questions or call us if there are any specific arrangements that you would like us to do.
 
      - As a user, you can go to our sign up page to sign up as a member so that you will receive a 10% discount on the products that you purchased.
+
+     - As a user, you can go into the menu page to view the different drinks and food that our cafe has to offer and there are also information about them below their respective name.
+
+     - As a user, you can go into the promotion page to view the different promotions of different products
+
+     - As a user, you can also go into the review page to see the opinions of other people on our products.
+
+Features
+
+There are many features incoporated into this cafe website.
+
+<strong>Menu<strong> page
+In the menu page, users can hover over the food and drinks to make it bigger. If the users over the image itself, it will also make itself bigger to make it easier for viewers to see it.
+
+In the menu page, a simple typing animation will greet the users before they begin their journey in this website.
+
+Promotion page
+In the promotion page, viewers will see a fading image animation (the images used are the layout of the cafe).
+
+Following that, the page also has an image slider animation that allow users to see the different discounted products. The image slider, by default, will automatically switch to the next image. However, this image slider animation is very intuitive, if viewers would like to see the previous image they can simply drag it back to see it, alternatively they can press the buttons at the bottom.
+
+Review page
+In the review page, the animations that I used is the animation on scroll. This would make my wesite more aesthetically pleasing. Although it is not an interactive feature, i still used it to enhance the appearanc of my website.
+
+The review page also includes a hover effect, where users can hover over the different review containers and the containers will be bigger.
