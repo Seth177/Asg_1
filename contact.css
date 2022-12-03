@@ -340,7 +340,26 @@ span:nth-of-type(2) {
   }
 
   .other-info button {
-    font-size: 25px;
+    font-size: 30px;
+    border-style: solid;
+  }
+
+  .last-box p {
+    font-size: 40px;
+  }
+
+  .customer-support button {
+    font-size: 30px;
+    border-style: solid;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 30px;
+    border-style: solid;
   }
 }
 
@@ -350,8 +369,16 @@ span:nth-of-type(2) {
   }
 
   .other-info button {
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.5s;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 30px;
   }
 }
 
@@ -366,7 +393,7 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 20px;
+    font-size: 30px;
   }
   .information-container button:first-child {
     width: 80%;
@@ -385,7 +412,10 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 20px;
+    font-size: 30px;
+  }
+  .customer-support {
+    margin: 10px;
   }
 
   .nav-logo {
@@ -527,6 +557,13 @@ span:nth-of-type(2) {
     font-size: 50px;
     transition: 0.5s;
   }
+  .customer-support button {
+    font-size: 25px;
+  }
+
+  .last-box p {
+    font-size: 35px;
+  }
 
   .other-info {
     display: flex;
@@ -534,7 +571,7 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 20px;
+    font-size: 25px;
   }
   .information-container button:first-child {
     width: 80%;
@@ -553,7 +590,11 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .customer-support {
+    margin: 30px;
   }
 
   .nav-logo {
@@ -702,10 +743,13 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 17px;
+    font-size: 25px;
+    border-style: solid;
   }
   .information-container button:first-child {
     width: 80%;
+    align-self: center;
+    transition: 0.5s;
   }
 
   .information-container button:nth-child(2) {
@@ -714,6 +758,8 @@ span:nth-of-type(2) {
 
   .information-container button:last-child {
     width: 80%;
+    align-self: center;
+    transition: 0.5s;
   }
 
   .instagram {
@@ -721,7 +767,11 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 17px;
+    font-size: 25px;
+    border-style: solid;
+  }
+  .customer-support {
+    margin: 30px;
   }
 
   .nav-logo {
@@ -870,7 +920,7 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 17px;
+    font-size: 22px;
   }
   .information-container button:first-child {
     width: 80%;
@@ -889,7 +939,19 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 17px;
+    font-size: 22px;
+  }
+
+  .customer-support button {
+    font-size: 22px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .last-box p {
+    font-size: 32px;
   }
 
   .nav-logo {
@@ -1038,7 +1100,7 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 17px;
+    font-size: 20px;
   }
   .information-container button:first-child {
     width: 80%;
@@ -1050,7 +1112,7 @@ span:nth-of-type(2) {
 
   .information-container button:last-child {
     width: 80%;
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .instagram {
@@ -1058,7 +1120,19 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 14px;
+    font-size: 20px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .customer-support button {
+    font-size: 20px;
+  }
+
+  .last-box p {
+    font-size: 30px;
   }
 
   .nav-logo {
@@ -1207,7 +1281,7 @@ span:nth-of-type(2) {
     align-items: flex-start;
   }
   .other-info button {
-    font-size: 15px;
+    font-size: 17px;
   }
   .information-container button:first-child {
     width: 80%;
@@ -1220,7 +1294,6 @@ span:nth-of-type(2) {
 
   .information-container button:last-child {
     width: 80%;
-    font-size: 15px;
     transition: 0.5s;
   }
 
@@ -1229,7 +1302,15 @@ span:nth-of-type(2) {
   }
 
   .instagram button {
-    font-size: 14px;
+    font-size: 17px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .last-box p {
+    font-size: 30px;
   }
 
   .nav-logo {
