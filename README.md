@@ -65,7 +65,7 @@ Technologies Used
 - CSS
 - Javascript
 
-Testing
+<b>Testing</b>
 
 1. Membership form:
 
