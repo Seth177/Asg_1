@@ -225,9 +225,14 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+.discount-text h1 {
   color: white;
-  margin-left: 30px;
+  font-size: 30px;
+}
+
+.discount-text2 h1 {
+  color: white;
+  font-size: 30px;
 }
 
 span {
@@ -244,6 +249,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -268,9 +274,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 20px 30px 20px;
 }
 
 @media screen and (max-width: 1650px) {
@@ -323,8 +327,13 @@ span {
     transition: 0.5s;
   }
 
-  h1 {
-    font-size: 30px;
+  .discount-text h1 {
+    font-size: 28px;
+    transition: 0.5s;
+  }
+
+  .discount-text2 h1 {
+    font-size: 28px;
     transition: 0.5s;
   }
 
@@ -344,7 +353,12 @@ span {
     transition: 0.5s;
   }
 
-  h1 {
+  .discount-text h1 {
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  .discount-text2 h1 {
     font-size: 25px;
     transition: 0.5s;
   }
@@ -377,7 +391,12 @@ span {
     transition: 0.5s;
   }
 
-  h1 {
+  .disocunt-text h1 {
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  .disocunt-text2 h1 {
     font-size: 25px;
     transition: 0.5s;
   }
@@ -391,6 +410,184 @@ span {
     width: 65%;
     height: fit-content;
     object-fit: cover;
+  }
+
+  .container-for-swiper1 {
+    width: 40%;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .image-text {
+    top: 30%;
+    left: 35%;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .image-box {
+    height: 540px;
+    transition: 0.5s;
+  }
+
+  .discount-text h1 {
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  .discount-text2 h1 {
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  span {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+
+  .container-for-swiper1 .swiper {
+    width: 65%;
+    height: fit-content;
+    object-fit: cover;
+  }
+  .container-for-swiper .swiper {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+    transition: 0.4s;
   }
 
   .nav-logo {
@@ -540,7 +737,12 @@ span {
     transition: 0.5s;
   }
 
-  h1 {
+  .discount-text h1 {
+    font-size: 22px;
+    transition: 0.5s;
+  }
+
+  .discount-text2 h1 {
     font-size: 22px;
     transition: 0.5s;
   }
@@ -563,10 +765,10 @@ span {
   }
 
   .container-for-swiper1 .swiper-button-prev {
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   .container-for-swiper1 .swiper-button-next {
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
 
   .nav-logo {
@@ -896,14 +1098,14 @@ span {
     width: 100%;
     transform: scaleX(0.9);
     margin-top: 50px;
-    padding: 30px 20px 30px 0px;
+    padding: 30px 20px 30px 20px;
   }
 
   .container-for-swiper1:nth-child(2) {
     width: 100%;
-    transform: scaleX(0.85);
+    transform: scaleX(0.85) scaleY(0.9);
     margin-top: 50px;
-    padding: 30px 20px 30px 0px;
+    padding: 30px 20px 30px 20px;
   }
 
   .container-for-swiper1.swiper {
