@@ -67,4 +67,20 @@ Technologies Used
 
 Testing
 
-1. Membership form
+1. Membership form:
+
+   - Tried to submit an empty form but the pop-up screen appeared
+   - Tried to submit the form by filling in only one item but the pop-up screen still appeared
+
+2. Contact page:
+   - When "email me" button is pressed, it goes straight to the email, which is correct.
+
+Credits
+
+Media
+
+- The images used in this site were obtained from google
+
+Acknowledgements
+
+- I received insipiration for this project from Cafe BomBom Website, Youtube and BotakSign
