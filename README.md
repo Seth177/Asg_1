@@ -55,6 +55,8 @@ Membership Page
 
 1. For the membership page, users are required to fill in the necessary details before submitting. Upon submitting, a simple pop-up page that will appear from the centre will greet the users.
 
+2. Users can also press the reset button beside the submit button if there are any issues.
+
 Features Left to Implement
 
 1. I have not done the reszing for certain sizes
