@@ -221,8 +221,8 @@ span {
   text-align: center;
 }
 
-.email button {
-  width: 50%;
+.email a button {
+  width: 300px;
   border-style: solid;
 }
 
@@ -378,11 +378,7 @@ span:nth-of-type(2) {
     border-style: solid;
   }
 
-  .email {
-    width: 70%;
-  }
-
-  .email button {
+  .email a button {
     font-size: 30px;
   }
 
@@ -393,1075 +389,1041 @@ span:nth-of-type(2) {
   .instagram button {
     font-size: 30px;
   }
+}
 
-  @media screen and (max-width: 1100px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
-
-    .other-info button {
-      font-size: 30px;
-      transition: 0.5s;
-    }
-
-    .email {
-      width: 70%;
-    }
-
-    .email button {
-      font-size: 30px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 30px;
-    }
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 10px 20px 10px;
   }
 
-  @media screen and (max-width: 980px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
-
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 30px;
-    }
-    .information-container button:first-child {
-      width: 50%;
-    }
-
-    .information-container button:last-child {
-      width: 50%;
-    }
-
-    .email button {
-      font-size: 30px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 30px;
-    }
-    .customer-support {
-      margin: 10px;
-    }
-
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
-
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
-
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .menu.active {
-      opacity: 0.9;
-    }
-
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
-
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .reviews.active {
-      opacity: 0.9;
-    }
-
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .contacts.active {
-      opacity: 0.9;
-    }
-
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .membership.active {
-      opacity: 0.9;
-    }
+  .other-info button {
+    font-size: 30px;
+    transition: 0.5s;
   }
 
-  @media screen and (max-width: 860px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
-
-    .header p {
-      font-size: 50px;
-      transition: 0.5s;
-    }
-    .customer-support button {
-      font-size: 25px;
-    }
-
-    .last-box p {
-      font-size: 35px;
-    }
-
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 25px;
-    }
-
-    .email button {
-      font-size: 25px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 25px;
-    }
-
-    .customer-support {
-      margin: 30px;
-    }
-
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
-
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
-
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .menu.active {
-      opacity: 0.9;
-    }
-
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
-
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .reviews.active {
-      opacity: 0.9;
-    }
-
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .contacts.active {
-      opacity: 0.9;
-    }
-
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .membership.active {
-      opacity: 0.9;
-    }
+  .email a button {
+    font-size: 30px;
   }
 
-  @media screen and (max-width: 815px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
-
-    .header p {
-      font-size: 40px;
-      transition: 0.5s;
-    }
-
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 25px;
-    }
-    .information-container button:first-child {
-      width: 80%;
-      align-self: center;
-      transition: 0.5s;
-    }
-
-    .information-container button:last-child {
-      width: 80%;
-      align-self: center;
-      transition: 0.5s;
-    }
-
-    .email button {
-      font-size: 25px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 25px;
-    }
-    .customer-support {
-      margin: 30px;
-    }
-
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
-
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
-
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .menu.active {
-      opacity: 0.9;
-    }
-
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
-
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .reviews.active {
-      opacity: 0.9;
-    }
-
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .contacts.active {
-      opacity: 0.9;
-    }
-
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .membership.active {
-      opacity: 0.9;
-    }
+  .instagram {
+    width: 50%;
   }
 
-  @media screen and (max-width: 750px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
+  .instagram button {
+    font-size: 30px;
+  }
+}
 
-    .header p {
-      font-size: 35px;
-      transition: 0.5s;
-    }
-
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 22px;
-    }
-
-    .email button {
-      font-size: 22px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 22px;
-    }
-
-    .customer-support button {
-      font-size: 22px;
-    }
-
-    .customer-support {
-      margin: 30px;
-    }
-
-    .last-box p {
-      font-size: 32px;
-    }
-
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
-
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
-
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .menu.active {
-      opacity: 0.9;
-    }
-
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
-
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .reviews.active {
-      opacity: 0.9;
-    }
-
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .contacts.active {
-      opacity: 0.9;
-    }
-
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .membership.active {
-      opacity: 0.9;
-    }
+@media screen and (max-width: 980px) {
+  .container {
+    padding: 10px 20px 10px;
   }
 
-  @media screen and (max-width: 700px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
-
-    .header p {
-      font-size: 35px;
-      transition: 0.5s;
-    }
-
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 20px;
-    }
-    .information-container button:first-child {
-      width: 80%;
-    }
-
-    .information-container button:last-child {
-      width: 80%;
-      font-size: 20px;
-    }
-
-    .email button {
-      font-size: 20px;
-    }
-
-    .instagram {
-      width: 50%;
-    }
-
-    .instagram button {
-      font-size: 20px;
-    }
-
-    .customer-support {
-      margin: 30px;
-    }
-
-    .customer-support button {
-      font-size: 20px;
-    }
-
-    .last-box p {
-      font-size: 30px;
-    }
-
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
-
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
-
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .menu.active {
-      opacity: 0.9;
-    }
-
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
-
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .reviews.active {
-      opacity: 0.9;
-    }
-
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .contacts.active {
-      opacity: 0.9;
-    }
-
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
-
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-
-    .membership.active {
-      opacity: 0.9;
-    }
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 30px;
   }
 
-  @media screen and (max-width: 610px) {
-    .container {
-      padding: 10px 20px 10px;
-    }
+  .email a button {
+    font-size: 30px;
+  }
 
-    .header p {
-      font-size: 30px;
-      transition: 0.5s;
-    }
+  .instagram {
+    width: 50%;
+  }
 
-    .other-info {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .other-info button {
-      font-size: 17px;
-    }
-    .information-container button:first-child {
-      width: 80%;
-    }
+  .instagram button {
+    font-size: 30px;
+  }
+  .customer-support {
+    margin: 10px;
+  }
 
-    .information-container button:last-child {
-      width: 80%;
-      transition: 0.5s;
-    }
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
 
-    .email button {
-      font-size: 17px;
-    }
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
 
-    .instagram {
-      width: 50%;
-    }
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
 
-    .instagram button {
-      font-size: 17px;
-    }
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
 
-    .customer-support {
-      margin: 30px;
-    }
+  .menu.active {
+    opacity: 0.9;
+  }
 
-    .last-box p {
-      font-size: 30px;
-    }
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
 
-    .nav-logo {
-      display: block;
-      cursor: pointer;
-      padding-top: 15px;
-      margin-right: 10px;
-    }
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
 
-    .nav-logo .line {
-      width: 30px;
-      border-radius: 5px;
-      height: 3px;
-      background-color: white;
-      margin: 7px 0px;
-    }
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
 
-    .menu {
-      position: absolute;
-      padding-top: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
 
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
+  .reviews.active {
+    opacity: 0.9;
+  }
 
-    .menu.active {
-      opacity: 0.9;
-    }
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
 
-    .promotions {
-      position: absolute;
-      padding-top: 0;
-      top: 120px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
 
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
-    .promotions.active {
-      opacity: 0.9;
-    }
+  .contacts.active {
+    opacity: 0.9;
+  }
 
-    .reviews {
-      position: absolute;
-      padding-top: 0;
-      top: 160px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
 
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
 
-    .reviews.active {
-      opacity: 0.9;
-    }
+  .membership.active {
+    opacity: 0.9;
+  }
+}
 
-    .contacts {
-      position: absolute;
-      padding-top: 0;
-      top: 200px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
+@media screen and (max-width: 860px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
 
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
+  .header p {
+    font-size: 50px;
+    transition: 0.5s;
+  }
+  .customer-support button {
+    font-size: 25px;
+  }
 
-    .contacts.active {
-      opacity: 0.9;
-    }
+  .last-box p {
+    font-size: 35px;
+  }
 
-    .membership {
-      position: absolute;
-      padding-top: 0;
-      top: 240px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: 50px;
-      opacity: 0;
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 25px;
+  }
 
-      background-image: linear-gradient(
-        to right,
-        rgb(135, 113, 113),
-        rgb(182, 182, 26),
-        rgb(137, 122, 89)
-      );
-      transition: 0.2s;
-    }
+  .email {
+    width: 70%;
+  }
 
-    .membership.active {
-      opacity: 0.9;
-    }
+  .email a button {
+    font-size: 25px;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 25px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .header p {
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 25px;
+  }
+
+  .email a button {
+    font-size: 25px;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 25px;
+  }
+  .customer-support {
+    margin: 30px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .header p {
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 22px;
+  }
+
+  .email a button {
+    font-size: 22px;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 22px;
+  }
+
+  .customer-support button {
+    font-size: 22px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .last-box p {
+    font-size: 32px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .header p {
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 20px;
+  }
+
+  .email a button {
+    font-size: 20px;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 20px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .customer-support button {
+    font-size: 20px;
+  }
+
+  .last-box p {
+    font-size: 30px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .container {
+    padding: 10px 20px 10px;
+  }
+
+  .header p {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+
+  .other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .other-info button {
+    font-size: 17px;
+  }
+
+  .email a button {
+    font-size: 17px;
+  }
+
+  .instagram {
+    width: 50%;
+  }
+
+  .instagram button {
+    font-size: 17px;
+  }
+
+  .customer-support {
+    margin: 30px;
+  }
+
+  .last-box p {
+    font-size: 30px;
+  }
+
+  .nav-logo {
+    display: block;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-logo .line {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0px;
+  }
+
+  .menu {
+    position: absolute;
+    padding-top: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .menu.active {
+    opacity: 0.9;
+  }
+
+  .promotions {
+    position: absolute;
+    padding-top: 0;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+  .promotions.active {
+    opacity: 0.9;
+  }
+
+  .reviews {
+    position: absolute;
+    padding-top: 0;
+    top: 160px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .reviews.active {
+    opacity: 0.9;
+  }
+
+  .contacts {
+    position: absolute;
+    padding-top: 0;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .contacts.active {
+    opacity: 0.9;
+  }
+
+  .membership {
+    position: absolute;
+    padding-top: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    opacity: 0;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(135, 113, 113),
+      rgb(182, 182, 26),
+      rgb(137, 122, 89)
+    );
+    transition: 0.2s;
+  }
+
+  .membership.active {
+    opacity: 0.9;
   }
 }
