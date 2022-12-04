@@ -71,7 +71,7 @@ Membership Page
 
 Features Left to Implement
 
-1. I have not done the reszing for certain sizes
+1. I have not done the resizing for certain sizes
 
 2. I have yet to create an instagram page for the cafe
 
