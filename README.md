@@ -29,9 +29,11 @@ Website
 
 1. I have also done the resizing of the viewports to ensure that the elements of my website can be easily viewed on the different screen sizes.
 
-2. For my menu page, when resized, it will change form its initial 3 column display to a 2 column display.
+2. When viewport is resized to 980px and below, the 5 pages(Menu, Promotions, Reviews, Contact, SignUp) will be compressed into a 3 bar logo, and when hovered over, it will display the 5 pages in a column manner.
 
-3. For pages like the promotion and review page, when resized to a certain size the layout of the content changes from a row to a column.
+3. For my menu page, when resized, it will change form its initial 3 column display to a 2 column display.
+
+4. For pages like the promotion and review page, when resized to a certain size the layout of the content changes from a row to a column.
 
 Menu Page
 
@@ -53,11 +55,13 @@ Review Page
 
 Contact Page
 
-1. The contact page is a very simple page that has a only very simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
+1. The contact page is a very simple page that only has a simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
 
 2. When users hover over the first 4 buttons there will be a box shadow and the opacity of the buttons will slightly decrease.
 
 3. If users were to press the "Email us" button, it will open the mail app and they can directly email us any questions they have.
+
+4. When users hover over the "customer-support" button, the padding will increase while the opacity will decrease.
 
 Membership Page
 
@@ -68,6 +72,8 @@ Membership Page
 Features Left to Implement
 
 1. I have not done the reszing for certain sizes
+
+2. I have yet to create an instagram page for the cafe
 
 <b>Technologies Used</b>
 
@@ -93,4 +99,4 @@ Media
 
 Acknowledgements
 
-- I received insipiration for this project from Cafe BomBom Website, Youtube ,BotakSign and w3schools
+- I received insipiration for this project from the Cafe BomBom Website, Youtube ,BotakSign and w3schools
