@@ -29,9 +29,13 @@ Website
 
 1. I have also done the resizing of the viewports to ensure that the elements of my website can be easily viewed on the different screen sizes.
 
+2. For my menu page, when resized, it will change form its initial 3 column display to a 2 column display.
+
+3. For pages like the promotion and review page, when resized to a certain size the layout of the content changes from a row to a column.
+
 Menu Page
 
-1. In the menu page, users can hover over the food and drinks to make it bigger. If the users over the image itself, it will also make itself bigger to make it easier for viewers to see it.
+1. In the menu page, users can hover over the food and drinks to make it bigger. If the users over the image itself, it will also make itself bigger to make it easier for viewers to see it.There is a box shadow that will appear when viewers hover over the container.
 
 2. In the menu page, a simple typing animation will greet the users before they begin their journey in this website.
 
@@ -39,21 +43,25 @@ Promotion Page
 
 1. In the promotion page, viewers will see a fading image animation (the images used are the layout of the cafe).
 
-2. Following that, the page also has an image slider animation that allow users to see the different discounted products. The image slider, by default, will automatically switch to the next image. However, this image slider animation is very intuitive, if viewers would like to see the previous image they can simply drag it back to see it, alternatively they can press the buttons at the bottom.
+2. Following that, the page also has an image slider animation that allow users to see the different discounted products. The image slider, by default, will automatically switch to the next image. However, this image slider animation is very intuitive, if viewers would like to see the previous image they can simply drag it back to see it, alternatively they can press the buttons at the bottom or they can use the arrows to manouevre between the previous or the next image.
 
 Review Page
 
-1. In the review page, the animations that I used is the animation on scroll. This would make my wesite more aesthetically pleasing. Although it is not an interactive feature, i still used it to enhance the appearanc of my website.
+1. In the review page, the feature that I used is the animation on scroll. This would make my wesite more aesthetically pleasing and interesting. Although it is not an interactive feature, i still used it to enhance the appearanc of my website.
 
-2. The review page also includes a hover effect, where users can hover over the different review containers and the containers will be bigger.
+2. The review page also includes a hover effect, where users can hover over the different review containers and the containers will be bigger and there will be a faint box shadow behind it.
 
 Contact Page
 
-1. The contact page is a very simple page that has only very simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
+1. The contact page is a very simple page that has a only very simple feature which is the automatic moving and pointing down arrow. The arrow is always moving up and down and is pointing down to a button which prompts users to press it if they have any enquiries.
+
+2. When users hover over the first 4 buttons there will be a box shadow and the opacity of the buttons will slightly decrease.
+
+3. If users were to press the "Email us" button, it will open the mail app and they can directly email us any questions they have.
 
 Membership Page
 
-1. For the membership page, users are required to fill in the necessary details before submitting. Upon submitting, a simple pop-up page that will appear from the centre will greet the users.
+1. For the membership page, users are required to fill in the necessary details before submitting. Upon submission, a simple pop-up page that will appear from the centre will greet the users. Once they press "ok" the popup screen will disappear
 
 2. Users can also press the reset button beside the submit button if there are any issues.
 
